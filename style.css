@@ -87,6 +87,10 @@ img {
     box-sizing: border-box;
   }
   
+  body {
+    font-size: 12px;
+  }
+  
   #lezioni , #why {
     background-color: #F2F2CD;
     padding: 1rem;
@@ -96,7 +100,9 @@ img {
     padding: 1rem;
   }
 
-  #lezioni>.row , #steps>.row , #why>.row {
+  #lezioni>.row , 
+  #steps>.row , 
+  #why>.row {
     max-width: 100%;
     margin: 0;
   }
@@ -108,7 +114,6 @@ img {
     float: none;
     display: inline-block;
     width: 100%;
-    font-size: 12px;
   }
 
   #lezioni img , #steps img , #why img{
