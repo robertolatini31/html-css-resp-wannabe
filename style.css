@@ -75,6 +75,39 @@ img {
 
 /* #region *** My Solutions ***  */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 420px) {
+  
+  #lezioni {
+    background-color: #F2F2CD;
+    padding: 1rem;
+  }
+
+  #lezioni>.row {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  #lezioni .row>.left, #lezioni .row>.right {
+    float: none;
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  #lezioni img {
+    max-width: 35%;
+    height: auto;
+  }
+
+
+  
+}
 
 
 /* #endregion *** My Solutions ***  */
