@@ -83,30 +83,39 @@ img {
 
 @media screen and (max-width: 420px) {
   
-  #lezioni {
+  #lezioni , #why {
     background-color: #F2F2CD;
     padding: 1rem;
   }
 
-  #lezioni>.row {
+  #steps {
+    padding: 1rem;
+  }
+
+  #lezioni>.row , #steps>.row , #why>.row {
     max-width: 100%;
     margin: 0;
   }
 
-  #lezioni .row>.left, #lezioni .row>.right {
+  #lezioni .row>.left, #lezioni .row>.right,
+  #steps .row>.left, #steps .row>.right, #steps .row>.central,
+  #why .row>.first, #why .row>.second, #why .row>.third  
+  {
     float: none;
     display: inline-block;
     width: 100%;
     font-size: 12px;
   }
 
-  #lezioni img {
+  #lezioni img , #steps img , #why img{
     max-width: 35%;
     height: auto;
+    object-fit: cover;
   }
 
-
-  
+  hr {
+    color: #494944;
+  }
 }
 
 
